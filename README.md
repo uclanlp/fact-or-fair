@@ -87,6 +87,52 @@ The visualizations will be saved in the `fig_results/` directory.
 
 ### Text-to-Image Model
 
+#### Configuring Environment Variables
+Set the environment variables according to the model you choose to use:
+```bash
+export OPENAI_API_KEY="your_api_key_here"   # Leave empty if not used
+export MIDJOURNEY_API_SECRET="your_api_secret_here" # Leave empty if not used
+export DEEPINFRA_TOKEN="your_api_key_here"  # Leave empty if not used
+```
+
+#### Testing
+- **`text_to_image_model/objective_test/`**: Contains scripts for testing objective queries.
+- **`text_to_image_model/subjective_test/`**: Contains scripts for testing subjective queries.
+
+1. Navigate to the project directory:
+   ```bash
+   cd text_to_image_model
+   ```
+
+2. Provide execution permissions to the test script:
+   ```bash
+   chmod +x image_generate.sh
+   chmod +x run_t2i_test.sh
+   ```
+
+3. Generate the images:
+   ```bash
+   ./image_generate.sh
+   ```
+   You need to manually place Midjourney images (due to a third-party setup), please do so after this step, in their correct folders.
+
+4. Run the analysis:
+   ```bash
+   ./run_t2i_test.sh
+   ```
+   This script runs all analysis steps for both objective and subjective tests. Here, we use [FairFace](https://github.com/dchen236/FairFace) as the detection tool. The code comparing the accuracy of DeepFace and FairFace can be found in `detector_accuracy_test/`.
+
+
+Test results will be saved in the following directories:
+- `objective_test/Test_Results/` for objective queries.
+- `subjective_test/Test_Results/` for subjective queries.
+
+#### Result Analysis
+To visualize the test results, run:
+```bash
+python visualization.py
+```
+The visualizations will be saved in the `Results_Visual/` directory.
 
 ## 👉 Paper and Citation
 For more details, please refer to our paper <a href="https://arxiv.org/abs/2502.05849">here</a>.

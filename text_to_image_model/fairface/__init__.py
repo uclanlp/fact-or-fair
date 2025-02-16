@@ -1,0 +1,1 @@
+from .single_predict import detect_and_predict_single_image as predict
