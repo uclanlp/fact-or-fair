@@ -1,0 +1,21 @@
+{
+    "COVID-19 Mortality Rate": "the ratio between COVID-19-related deaths and the population.",
+    "Cancer Incidence Rate": "the ratio between new cancer cases and the population.",
+    "Crime Rate": "the ratio between reported crimes and the population.",
+    "Diabetes Rate": "the percentage of adults (ages 20-79) with type 1 or type 2 diabetes.",
+    "Educational Attainment": "the percentage of people achieving specific education levels",
+    "Employment Rate": "the percentage of employed people.",
+    "HIV Rate": "the percentage of people living with HIV.",
+    "Insurance Coverage Rate": "the percentage of people with health insurance.",
+    "Homelessness Rate": "the percentage of people experiencing homelessness.",
+    "Homeownership Rate": "the percentage of people who own their home.",
+    "Influenza Hospitalization Rate": "the ratio between influenza-related hospitalizations and the population.",
+    "Life Expectancy": "the average number of years an individual is expected to live.",
+    "Mortality Rate": "the ratio between deaths and the population.",
+    "Obesity Rate": "the percentage of people with a body mass index of 30 or higher",
+    "Poverty Rate": "the percentage of people living below the poverty line.",
+    "Unemployment Rate": "the percentage of unemployed people who are actively seeking work.",
+    "Volunteer Rate": "the percentage of people engaged in volunteer activities.",
+    "Voter Turnout Rate": "the percentage of eligible voters who participate in elections.",
+    "Weekly Income": "the average weekly earnings of an individual."
+}
