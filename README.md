@@ -91,7 +91,7 @@ The visualizations will be saved in the `fig_results/` directory.
 Set the environment variables according to the model you choose to use:
 ```bash
 export OPENAI_API_KEY="your_api_key_here"   # Leave empty if not used
-export MIDJOURNEY_API_SECRET = "your_api_secret_here" # Leave empty if not used
+export MIDJOURNEY_API_SECRET ="your_api_secret_here" # Leave empty if not used
 export DEEPINFRA_TOKEN="your_api_key_here"  # Leave empty if not used
 ```
 
