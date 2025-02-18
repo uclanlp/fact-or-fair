@@ -120,7 +120,7 @@ export DEEPINFRA_TOKEN="your_api_key_here"  # Leave empty if not used
    ```bash
    ./run_t2i_test.sh
    ```
-   This script runs all analysis steps for both objective and subjective tests. Here, we use [FairFace](https://github.com/dchen236/FairFace) as the detection tool. The code comparing the accuracy of deepface and FairFace can be found in `detector_accuracy_test`.
+   This script runs all analysis steps for both objective and subjective tests. Here, we use [FairFace](https://github.com/dchen236/FairFace) as the detection tool. The code comparing the accuracy of DeepFace and FairFace can be found in `detector_accuracy_test`.
 
 
 Test results will be saved in the following directories:
