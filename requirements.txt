@@ -1,0 +1,13 @@
+deepface==0.0.93
+dlib==19.24.6
+matplotlib==3.10.0
+numpy==2.2.3
+openai==1.63.2
+pandas==2.2.3
+Pillow==11.1.0
+protobuf==5.29.3
+Requests==2.32.3
+scipy==1.15.2
+torch==2.5.0
+torchvision==0.20.0
+tqdm==4.66.5
