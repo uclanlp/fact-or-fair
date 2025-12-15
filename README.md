@@ -139,10 +139,11 @@ For more details, please refer to our paper <a href="https://arxiv.org/abs/2502.
 
 If you find our paper&tool interesting and useful, please feel free to give us a star and cite us through:
 ```
-@article{huang2025factorfairchecklistbehavioraltesting,
-      title={Fact-or-Fair: A Checklist for Behavioral Testing of AI Models on Fairness-Related Queries}, 
-      author={Jen-tse Huang and Yuhang Yan and Linqi Liu and Yixin Wan and Wenxuan Wang and Kai-Wei Chang and Michael R. Lyu},
-      journal={arXiv: 2502.05849},
-      year={2025}
+@inproceedings{huang2025fact,
+  title={Where Fact Ends and Fairness Begins: Redefining AI Bias Evaluation through Cognitive Biases},
+  author={Huang, Jen-tse and Yan, Yuhang and Liu, Linqi and Wan, Yixin and Wang, Wenxuan and Chang, Kai-Wei and Lyu, Michael R},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  pages={10974--10993},
+  year={2025}
 }
 ```
